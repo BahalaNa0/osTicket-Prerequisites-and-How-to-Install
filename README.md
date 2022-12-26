@@ -255,7 +255,7 @@ Once this is done in HeidiSQL, go back to the osTicket Installer and finish the 
 <img src="https://i.imgur.com/N8cQoR7.png" height="80%" width="80%" alt="42."/>
 </p>
 
-Congratulations! It should be installed with no issues. Before continuing, there are some files that need to be cleaned up. 
+It should be installed with no issues. Before continuing, there are some files that need to be cleaned up. 
 
 Delete the "setup" in the osTicket folder. Copy and paste this into Windows Explorers if there is trouble finding it: "C:\inetpub\wwwroot\osTicket\setup".
 
