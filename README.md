@@ -2,7 +2,7 @@
 <img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
 </p>
 
-<h1>osTicket - Prerequisites and Installation</h1>
+<h1>osTicket - Prerequisites and How to Install</h1>
 osTicket is an open source ticketing system. Ticketing systems are used in Information Technology (IT) for users to create requests for service. It is widely used across all areas of IT especially IT help desk to security operations centers (SOCs). This tutorial will go over how to install osTicket on an Azure virtual machine. <br />
 
 <h2>Environments and Technologies Used</h2>
