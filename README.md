@@ -17,13 +17,11 @@ osTicket is an open source ticketing system. Ticketing systems are used in Infor
 
 <h2>List of Prerequisites</h2>
 
-Step 1: Install Internet Information Services 
+- Step 1: Install Internet Information Services 
+- Step 2: Install Web Platform Installer
+- Step 3: Install osTicket
+- Step 4: Install HeidiSQL
 
-Step 2: Install Web Platform Installer
-
-Step 3: Install osTicket
-
-Step 4: Install HeidiSQL
 <h2>Installation Steps</h2>
 
 Prior to starting, make sure you are using a virtual machine in Azure. If don't know how to create a virtual machine in Azure, please see my tutorial [here](https://github.com/klcarpio/Create-an-Azure-Account-and-Deploy-a-Virtual-Machine).
