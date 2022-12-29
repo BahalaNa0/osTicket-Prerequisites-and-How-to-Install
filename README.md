@@ -3,7 +3,7 @@
 </p>
 
 <h1>osTicket - Prerequisites and How to Install</h1>
-osTicket is an open source ticketing system. Ticketing systems are used in Information Technology (IT) for users to create requests for service. It is widely used across all areas of IT especially IT help desk to security operations centers (SOCs). This tutorial will go over how to install osTicket on an Azure virtual machine. <br />
+osTicket is an open source ticketing system. Ticketing systems are used in Information Technology (IT) for users to create requests for service. It is widely used across all areas of IT especially help desk. This tutorial will go over how to install osTicket on an Azure virtual machine. <br />
 
 <h2>Environments and Technologies Used</h2>
 
@@ -54,7 +54,11 @@ First step is to install Internet Information Services (IIS) in Windows. Go to t
 </p>
 
 <h3>Step 2: Install Web Platform Installer</h3> 
-Second step is install Web Platform Installer. To start,open up these download files [here](https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6).
+Second step is install Web Platform Installer. 
+
+<p></p>
+
+To start, open up these download files [here](https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6).
 
 Once at the Google Drive where the download files are, download Web Platform Installer. Then open up the file in the Downloads folder and install the application. 
 
@@ -87,9 +91,9 @@ Install the following:
 Follow the installation process. The Installer will inherently fail installing some of the items. Find those items in the Google Drive folder that was mentioned previously.
 
 Install the following:
--PHP Version 7.3.8.
--Microsoft Visual C++ 2009 Redistributable Package.
--PHP Manager 1.5.0 for IIS 10.
+- PHP Version 7.3.8.
+- Microsoft Visual C++ 2009 Redistributable Package.
+- PHP Manager 1.5.0 for IIS 10.
 
 <p>
 <img src="https://i.imgur.com/nQoI9GZ.png" height="80%" width="80%" alt="10."/>
@@ -149,9 +153,9 @@ Once all this is completed, open up IIS from the start menu. On the left hand si
 Before going forward with the osTicket Installer, there must be some add-ons enabled first. Go back to IIS and click on "PHP Manager." Then click "Enable or disable an extension."
 
 Right click and enable the following: 
--php_imap.dll.
--php_intl.dll.
--php_opcache.dll.
+- php_imap.dll.
+- php_intl.dll.
+- php_opcache.dll.
 
 <p>
 <img src="https://i.imgur.com/mrRBeJU.png" height="80%" width="80%" alt="22."/>
@@ -169,7 +173,7 @@ Right click and enable the following:
 <img src="https://i.imgur.com/a4K62lK.png" height="80%" width="80%" alt="25."/>
 </p>
 
-Once all those are installed, switch ack to the osTicket Installer and refresh it. An extension should have changed from a red x to a green check. 
+Once all those are installed, switch back to the osTicket Installer and refresh it. An extension should have changed from a red x to a green check. 
 
 <p>
 <img src="https://i.imgur.com/VeuTLZV.png" height="80%" width="80%" alt="26."/>
@@ -177,7 +181,7 @@ Once all those are installed, switch ack to the osTicket Installer and refresh i
 
 Open up Windows Explorer and it should still be on the osTicket folder. Open up the "include" folder and scroll down to the file "ost-sampleconfig.php." Rename this file to "ost-config.php."
 
-If lost where to go in Windows Explorer, copy and paste this into the Explorer: "C:\inetpub\wwwroot\osTicket\include\"
+If you're lost as to where to go in Windows Explorer, copy and paste this: "C:\inetpub\wwwroot\osTicket\include\".
 
 <p>
 <img src="https://i.imgur.com/rlgHvnR.png" height="80%" width="80%" alt="27."/>
@@ -287,9 +291,3 @@ The next two tutorials will show how to configure osTicket (such creating users,
 <p>
 <img src="https://i.imgur.com/LWC2RGB.jpg" height="80%" width="80%" alt="46."/>
 </p>
-
-
-
-
-
-
