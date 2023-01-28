@@ -289,3 +289,8 @@ The next two tutorials will show how to configure osTicket (such creating users,
 <p>
 <img src="https://i.imgur.com/LWC2RGB.jpg" height="80%" width="80%" alt="46."/>
 </p>
+
+
+**REMEMBER TO DELETE YOUR RESOURCES ONCE YOU ARE DONE WITH THE LAB!**
+
+
